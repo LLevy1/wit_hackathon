@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "withack"
+version = "0.1.0"
+description = "a classification model to oredict financial vulnerability in users and identify the main factors which contribute to financial vulnerability"
+authors = ["Leah Levy <leahshohet@hotmail.co.uk>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+scikit-learn = "^1.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

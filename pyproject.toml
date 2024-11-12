@@ -11,6 +11,7 @@ python = "^3.13"
 pandas = "^2.2.3"
 numpy = "^2.1.2"
 scikit-learn = "^1.5.2"
+black = {extras = ["jupyter"], version = "^24.10.0"}
 
 
 [tool.poetry.group.dev.dependencies]

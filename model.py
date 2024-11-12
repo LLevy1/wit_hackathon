@@ -5,21 +5,22 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 from sklearn.svm import LinearSVC
 
+
 def load_data(filename: str) -> pd.DataFrame:
-   """
+    """
     param:
         filename:str: name of the file to load, must be in the 'Data' folder
     return:
-        df:DataFrame in the form of a Pandas DataFrame
-   """
-    df = pd.read_csv('./Data/'+filename)
+        df: DataFrame in the form of a Pandas DataFrame
+    """
+    data_path = "./Data/" + filename
+    df = pd.read_csv(data_path)
     return df
 
-def clean_data(df: pd.DataFrame) -> pd.DataFrame:
-   """
 
-   """
+def clean_data(df: pd.DataFrame) -> pd.DataFrame:
+    """ """
 
 
 if __name__ == "__main__":
-    data = load_data('./Data/hackathon.csv')
+    data = load_data("./Data/hackathon.csv")

@@ -2,7 +2,7 @@
 name = "withack"
 version = "0.1.0"
 description = "a classification model to oredict financial vulnerability in users and identify the main factors which contribute to financial vulnerability"
-authors = ["Leah Levy <leahshohet@hotmail.co.uk>"]
+authors = ["Leah Levy"]
 readme = "README.md"
 package-mode = false
 
